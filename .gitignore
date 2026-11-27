@@ -1,0 +1,43 @@
+# Data: never commit datasets
+data/
+datasets/
+*.h5
+*.hdf5
+*.pkl
+*.zip
+*.tar
+*.tar.gz
+
+# Model weights and outputs (share large files via Teams/OneDrive)
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Video and audio (Teams/OneDrive)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.m4a
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Notebook demo data and run outputs
+demo_data/
+outputs*/
